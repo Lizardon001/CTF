@@ -1,0 +1,47 @@
+#define lucky_num 24
+#define angry_stache }
+#define happy_stache {
+#define extra_fate >>
+#define lesser_fate <<
+#define less_fate <
+#define gained_fate +
+#define lost_fate -
+#define absolute_fate ==
+#define given_fate =
+#define start main()
+#define lucky_number (rand()%7)+1;
+#define cat for
+#define give cout
+#define take cin
+#define seven flag
+#define luck int
+#define lucky string
+#include <iostream>
+#include <string>
+#include <stdlib.h>
+#include <time.h>
+using namespace std;
+
+luck start
+happy_stache
+        lucky seven;
+        give lesser_fate "Enter Any String to Make it Lucky: ";
+        take extra_fate seven;
+        srand(time(NULL));
+        luck seven_rand given_fate lucky_number
+        give lesser_fate "Your Lucky Numbers are: ";
+        for(luck i given_fate 0; i less_fate seven.length(); i++)
+        happy_stache
+                luck seven_num given_fate seven[i];
+                seven_num given_fate seven_num ^ seven_rand;
+                if(i % 2 absolute_fate 0)
+                happy_stache
+                        seven_num given_fate seven_num gained_fate lucky_num;
+                angry_stache
+                else
+                happy_stache
+                        seven_num given_fate seven_num lost_fate lucky_num;
+                angry_stache
+                give lesser_fate seven_num lesser_fate " ";
+        angry_stache
+angry_stache
